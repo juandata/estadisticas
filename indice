@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="data-remix-projectId" content="252526">
+<meta name="data-remix-projectTitle" content="Página Apuestas Muestra1">
+<meta name="data-remix-projectAuthor" content="juandata">
+<meta name="data-remix-dateUpdated" content="2017-04-15T06:46:39.231Z">
+<meta name="data-remix-host" content="https://thimble.mozilla.org">
+<meta name="data-remix-readonly" content="null">
+<link rel="stylesheet" href="src/font-awesome-animation.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+Copy>
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+
+<!--<meta http-equiv="Refresh" Content="5"> recarga cada 5 segundos la pagina-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">--> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script> 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+
+  <body>
+  
+    <header class="header">
+      <nav class="encabezado">
+        
+        <ul>
+          <li><a  href="#" target="_blank">Inicio</a></li>
+          <li ><a   onclick= "myFunction2()">Depositar</a></li>
+          <li><a href="#" target="_blank">Retirar</a></li>
+        </ul>
+        
+      </nav>
+   
+</header>
+  <!--comienza menú responsive por JDA-->
+  <ul id= "navResp" class="navResp">
+    
+     <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Fútbol</a>
+    <div class="dropdown-content">
+      <a onclick="partidosVivo()">Partidos en vivo</a>
+      <a href="#">Próximos partidos</a>
+      <a href="#">Resultados de hoy</a>
+    </div>
+    <li><a href="#" id= "navRespLink">Tenis</a></li>
+    <li><a href="#" id= "navRespLink">Baloncesto</a></li>
+    <li><a href="#" id= "navRespLink">Hockey</a></li>
+    <li><a href="#" id= "navRespLink">Baseball</a></li>
+ </ul>
+
+
+  <!--comienza navizq-->
+  
+	<div class="principal">
+		
+		<nav class="navizq">
+		
+		
+		<button class="accordion"> Fútbol </button>
+		<div class="panel">
+	
+	    <button class="accordion">Cuotas en vivo </button>
+		
+		<div class="panel">
+			<button class="accordion" >PRUEBA1</button>
+				<button id="botonPrueba" onclick="myFunction2()" > Actualizar Cuotas en vivo por JDA</button>
+		</div>
+		<button class="accordion"> Alemania </button>
+		<div class="panel">
+			<button class="accordion">Bundesliga</button>
+		</div>	
+		<button class="accordion"> Argentina </button>
+		<div class="panel">
+			
+		</div>
+		
+		<button class="accordion"> Australia </button>
+		<div class="panel">
+			
+		</div>	
+		
+			
+		</div>		
+  
+		
+		<button class="accordion"> Tenis </button>
+		<div class="panel">
+		<button class="accordion"> China </button>
+		<div class="panel">
+			
+		</div>	
+
+		<button class="accordion"> Italia </button>
+		<div class="panel">
+			
+		</div>	
+		<button class="accordion"> Taiwan </button>
+		<div class="panel">
+			
+		</div>	
+
+
+
+				</div>	
+  
+		<button class="accordion"> Baloncesto </button>
+		<div class="panel">
+		<button class= "accordion">contenido</button>	
+				</div>	
+ 
+  
+		<button class="accordion"> Hockey </button>
+		<div class="panel">
+	<button class= "accordion">contenido</button>		
+				</div>	
+  
+  
+		<button class="accordion"> Baseball </button>
+		<div class="panel">
+	<button class= "accordion">contenido</button>	
+		</div>		
+    </nav>	
+    <div class="displaycalc">
+
+
+    <div id="contenedortabla">
+    <table id= "tablacuotas">
+
+      </table>
+  <p>Clic en el botón de abajo para recargar las cuotas.</p>
+<p>Las cuotas se actualizan automáticamente:</p>
+<button id="actualizarCuotas"  onclick="myFunction()">Actualizar cuotas<i id="cargando" class="fa fa-spinner fa-pulse fa-3x fa-fw" aria-hidden="true"></i></button>
+<button id= "actualizarCuotas" class= "abrirCerrarCuotas" >Mostrar/Ocultar cuotas</button>
+  
+	        </div>
+
+	
+
+
+	</div>
+
+</div> 
+
+
+<!--scripts por JDA <script src="js/jscopybackup.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">-->
+ <script src="js/js1copy.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+
+
+
+</body>
+<HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+</HEAD>
+</html>
+  
+
